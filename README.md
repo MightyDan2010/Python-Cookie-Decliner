@@ -11,4 +11,3 @@ This script takes a list of websites (Information.json) and goes through every w
 * How many third-party cookies were used in websites where the code could find the "Decline" button
 * A list of all third-party cookies that were used in websites where the code could find the "Decline" button
 * How many cookies were active before and after the declining
- 
