@@ -5,7 +5,7 @@ import os
 from playwright.sync_api import sync_playwright
 from urllib.parse import urlparse
 
-def save_to_json(filepath, global_stats, site_results):
+def save_to_json(filepath, global_stats, site_results): 
     data = {"global_statistics": global_stats, "site_results": site_results}
     temp_filepath = f"{filepath}.tmp"
     with open(temp_filepath, 'w', encoding='utf-8') as f:
